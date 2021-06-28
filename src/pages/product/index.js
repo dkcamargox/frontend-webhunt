@@ -28,7 +28,7 @@ export default class Product extends Component{
                 <p> URL: <a href={product.url} rel="noopener noreferrer" target="_blank"> {product.url} </a></p>
                 </article>
                 <Link to='/' className="voltar">Voltar</Link>
-               </div>
+            </div>
             
         );
     }
